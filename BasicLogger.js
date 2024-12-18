@@ -50,5 +50,6 @@
       console.log("[ERROR.stack] " + error.stack);
     }
   }
+  Logger.default = Logger;
   return Logger;
 });
