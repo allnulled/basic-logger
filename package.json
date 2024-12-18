@@ -1,0 +1,12 @@
+{
+  "name": "@allnulled/basic-logger",
+  "version": "1.0.0",
+  "description": "Basic logger for JavaScript.",
+  "main": "BasicLogger.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

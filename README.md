@@ -14,7 +14,7 @@ npm i -s @allnulled/basic-logger
 
 ```js
 const Logger = require("@allnulled/basic-logger");
-const logger = Logger.create("GENERAL");
+const logger = Logger.create("TEST", { trace: 1 });
 
 logger.trace("Method", ["arguments"]);
 logger.debug("Some debug text");
@@ -26,5 +26,3 @@ logger.log("Some log text");
 ```js
 const Logger = window.BasicLogger;
 ```
-
-# basic-logger
